@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary Colors */
+  --primary-background: #0d1b2a; /* Night Blue */
+  --primary-accent: #00ced1; /* Cyan Glow */
+
+  /* Secondary Colors */
+  --secondary-background: #1b263b; /* Deep Ocean Blue */
+  --secondary-accent: #10afaf; /* Wave Teal */
+
+  /* Neutral Colors */
+  --neutral-dark: #2e3b4e; /* Dark Gray */
+  --neutral-light: #aab8c2; /* Light Gray */
+
+  /* Accent Colors */
+  --accent-color: #ff7f50; /* Coral Orange */
+  --text-light: #f5f5f5; /* Soft White */
+}
+
+/* General Styles */
+body {
+  background-color: var(--primary-background);
+  color: var(--text-light);
+  font-family: "Arial", sans-serif;
+}
